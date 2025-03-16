@@ -129,8 +129,7 @@ export class ScheduleCalendarComponent implements OnDestroy, AfterViewInit, OnCh
     ).subscribe(result => {
       if (result) {
         this.onConfirmDelete.emit(schedule)
-        const updatedeList = this.dataSource.data.filter(c => c.id !== schedule.id)
-        this.dataSource = new MatTableDataSource<ClientScheduleAppointmentModel>(updatedeList)
+        this.dataSource.data = this.dataSource.data.filter(c => c.id !== schedule.id);
         if (this.paginator) {
           this.dataSource.paginator = this.paginator
         }
