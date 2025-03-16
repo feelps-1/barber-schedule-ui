@@ -59,10 +59,6 @@ Este projeto consiste em uma interface de usuário desenvolvida em **Angular** c
 - Separação clara entre serviços (responsáveis por comunicação com API), componentes e modelos.
 - Aplicação de princípios de **Single Responsibility** e **DRY (Don't Repeat Yourself)**.
 
-### ✅ Validação de Formulários
-- Uso do **Reactive Forms** para validações síncronas e assíncronas.
-- Feedback visual ao usuário em casos de erros.
-
 ---
 
 ## 📈 Possíveis Melhorias Futuras
