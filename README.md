@@ -60,6 +60,7 @@ http://localhost:4200
 - **Angular** – Framework principal.
 - **TypeScript** – Tipagem estática para maior segurança e legibilidade.
 - **Angular Material** – Estilização básica e responsiva.
+- **Docker** - Containerização da aplicação
 
 ---
 
