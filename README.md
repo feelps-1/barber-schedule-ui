@@ -53,7 +53,7 @@ Este projeto consiste em uma interface de usuário desenvolvida em **Angular** c
   - `/clientes/:id`
   - `/schedules`
   - `/schedules/:id`
-  - ´/schedules/:year/:month´
+  - `/schedules/:year/:month`
 
 ### 🏗️ Boas Práticas de Arquitetura
 - Separação clara entre serviços (responsáveis por comunicação com API), componentes e modelos.
