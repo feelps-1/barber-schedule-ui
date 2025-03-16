@@ -10,6 +10,32 @@ Este projeto consiste em uma interface de usuário desenvolvida em **Angular** c
 
 ---
 
+## 🚀 Como Rodar o Projeto
+
+Este projeto foi configurado para rodar utilizando **Docker** e **Docker Compose**, facilitando o setup e execução em qualquer ambiente.
+
+### Pré-requisitos
+
+- Docker instalado
+- Docker Compose instalado
+- Rede Docker externa criada (caso ainda não exista):
+
+```bash
+docker network create barber-shop-net
+```
+
+Na raiz do projeto, execute:
+
+```bash
+docker compose up --build
+```
+
+O Angular estará disponível em:
+
+```bash
+http://localhost:4200
+```
+
 ## 📱 Telas Implementadas
 
 ### 1. 🗓️ Tela de Agendamento
